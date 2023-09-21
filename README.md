@@ -33,5 +33,9 @@ untuk soal c dan d lakukan hal yang sama seperti yang dilakukan pada log STOR un
 
 ![Ss Soal1.5](images/Screenshot%202023-09-21%20110334.png)
 
-
+pada gambar terakhir terlihat Sequence number(raw) dan Acknowledge number(raw) dari log response dari request STOR  tersebut.Setelah mengetahui jawaban-jawaban yang dicari,kirim jawab tersebut ke netcat yang telah disediakan dengan bash(nc/ncat) 
+```bash
+ncat sekian.sekian sekian.sekian
+```
+lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
 
