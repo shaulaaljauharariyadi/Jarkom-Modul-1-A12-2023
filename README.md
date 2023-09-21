@@ -5,5 +5,8 @@
 - Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut?
 - Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 - Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
-mula-mula buka file .pcapng yang digunakan pada soal 
+mula-mula buka file .pcapng yang telah disediakan pada modul soal
+
+![Ss Soal1](images/Screenshot 2023-09-21 102039.png)
+
 
