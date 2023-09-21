@@ -14,5 +14,8 @@ kemudian filter tabel dengan menggunakan searchbar dengan bendera biru disamping
 
 ![Ss Soal1.1](images/Screenshot%202023-09-21%20103352.png)
 
+untuk menyelesaikan soal a dan b,cari log yang bertuliskan request: STOR yang mana command STOR adalah command untuk mengunggah file pada protokol FTP
+
+![Ss Soal1.2](images/Screenshot%202023-09-21%20104215.png)
 
 
