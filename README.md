@@ -20,11 +20,17 @@ untuk menyelesaikan soal a dan b,cari log yang bertuliskan request: STOR yang ma
 
 lalu tekan log tersebut hingga muncul header yang berisi informasi dari  log tersebut
 
-![Ss Soal1.2](images/Screenshot%202023-09-21%20104746.png)
+![Ss Soal1.3](images/Screenshot%202023-09-21%20104746.png)
 
 lalu cari Sequence number(raw) dan Acknowledge number(raw) dari log STOR tersebut 
 
-![Ss Soal1.2](images/Screenshot%202023-09-21%20104746.png)
+![Ss Soal1.4](images/Screenshot%202023-09-21%20104746.png)
+
+pada gambar diatas telah terlihat berapa sequence number(raw) dan aknowledge number(raw) dari log STOR yang terekam.
+untuk soal c dan d lakukan hal yang sama seperti yang dilakukan pada log STOR untuk mencari sequence number(raw) dan acknowledge number(raw) tapi lakukan pada log persis dibawah log STOR yang mana log tersebut merupakan log response dari request STOR pada log sebelumnya 
+
+![Ss Soal1.5](images/Screenshot%202023-09-21%20105704.png)
+
 
 
 
