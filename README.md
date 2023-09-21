@@ -1,4 +1,7 @@
-# lapresJarKom1
+# lapres Jarkom-Modul-1-A12-2023
+- Shaula Aljauhara Riyadi 5025201265
+-
+## soal
 1. User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 
 - Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
