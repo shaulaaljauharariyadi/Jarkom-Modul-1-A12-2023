@@ -7,6 +7,6 @@
 - Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 mula-mula buka file .pcapng yang telah disediakan pada modul soal
 
-![Ss Soal1](images/Screenshot 2023-09-21 102039.png)
+![Ss Soal1](images/Screenshot%2023-09-21%102039.png)
 
 
