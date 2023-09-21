@@ -18,4 +18,11 @@ untuk menyelesaikan soal a dan b,cari log yang bertuliskan request: STOR yang ma
 
 ![Ss Soal1.2](images/Screenshot%202023-09-21%20104215.png)
 
+lalu tekan log tersebut hingga muncul header yang berisi informasi dari  log tersebut
+
+![Ss Soal1.2](images/Screenshot%202023-09-21%20104746.png)
+
+lalu cari Sequence number(raw) dan Acknowledge number(raw) dari log STOR tersebut 
+
+
 
