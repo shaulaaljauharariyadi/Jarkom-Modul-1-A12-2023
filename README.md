@@ -24,5 +24,7 @@ lalu tekan log tersebut hingga muncul header yang berisi informasi dari  log ter
 
 lalu cari Sequence number(raw) dan Acknowledge number(raw) dari log STOR tersebut 
 
+![Ss Soal1.2](images/Screenshot%202023-09-21%20104746.png)
+
 
 
