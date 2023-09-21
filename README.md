@@ -31,6 +31,7 @@ untuk soal c dan d lakukan hal yang sama seperti yang dilakukan pada log STOR un
 
 ![Ss Soal1.5](images/Screenshot%202023-09-21%20105704.png)
 
+![Ss Soal1.5](images/Screenshot%202023-09-21%20110334.png)
 
 
 
