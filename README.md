@@ -1,6 +1,6 @@
 # lapres Jarkom-Modul-1-A12-2023
 - Shaula Aljauhara Riyadi 5025201265
--
+- Lihardo Marson Purba 5025211238
 ## soal
 1. User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 
@@ -106,3 +106,28 @@ kendala yang umum terjadi pada saat mengerjakan soal ini adalah kebingungan menc
 4. Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
 ### jawaban
+buka file .pcapng soal terkait. 
+
+![Ss Soal4](images/Screenshot%202023-09-22%20162435.png)
+
+lalu scroll kebawah hingga menemukan log no 130.
+
+![Ss Soal4.1](images/Screenshot%202023-09-22%20164939.png)
+
+lalu tekan log tersebut untuk mengakses header dari log tersebut dan cari checksum dari log tersebut,biasanya berada di bagian "User diagram protocol".
+
+![Ss Soal2](images/Screenshot%202023-09-22%20164830.png)
+
+terlihat pada gambar diatas,terlihat informasi checksum yang diminta yaitu 0x18e5.
+
+Setelah mengetahui jawaban-jawaban yang dicari,kirim jawab tersebut ke netcat yang telah disediakan dengan bash(nc/ncat)
+
+```bash
+ncat sekian.sekian sekian.sekian
+```
+
+lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
+
+kendala yang umum terjadi pada saat mengerjakan soal ini adalah sedikit kebingungan mencari pada header bagian mana yang terdapat informasi terkait checksum tersebut sehingga harus melakukan sedikit konfigurasi settingan untuk dapat menemukan checksum yang dicari.
+
+Untuk sisa soal kemungkinan telah dikerjakan oleh teman satu kelompok yang sampe sekarang belum melakukan kontak.
