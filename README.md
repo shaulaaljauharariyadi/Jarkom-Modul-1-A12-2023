@@ -42,8 +42,8 @@ ncat sekian.sekian sekian.sekian
 ```
 lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
 kendala yang umum terjadi ketika mengerjakan soal ini adalah kurang teliti ketika mencari sequence dan acknowledge number dari log STOR yang ditanyakan.jadi ketika soal menanyakan sequence number(raw) dan acknowledge number(raw) dari log tersebut tapi menjawab soal dengan sequence number dan acknowledge number yang biasa tanpa ada tanda raw pada informasi tersebut.
-
-
+`
+`
 2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 ### jawaban
 
@@ -69,8 +69,8 @@ ncat sekian.sekian sekian.sekian
 lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
 
 kendala yang umum terjadi pada saat mengerjakan soal ini adalah kebingungan mencari pada log mana yang memiliki informasi server yang sedang digunakan dari banyaknya log yang terekam pada file tersebut.
-
-
+`
+`
 3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
 Protokol layer transport apa yang digunakan?
