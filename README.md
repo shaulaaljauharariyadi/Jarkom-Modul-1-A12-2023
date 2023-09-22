@@ -55,11 +55,11 @@ buka file .pcapng soal yang disediakan.
 
 kemudian filter tabel dengan mengetik "http" sehingga tabel hanya menampilkan log dengan protocol http.
 
-![Ss Soal2](images/Screenshot%202023-09-22%20102356.png)
+![Ss Soal2.1](images/Screenshot%202023-09-22%20102356.png)
 
 cari log dengan informasi "HTTP/sekian.sekian sekian" pada tabel tersebut untuk mencari nama server yang digunakan.lalu tekan header dari log tersebut untuk mencari untuk mengetahui server yang digunakan.
 
-![Ss Soal2](images/Screenshot%202023-09-22%20102420.png)
+![Ss Soal2.2](images/Screenshot%202023-09-22%20102420.png)
 
 dari gambar diatas bisa diketahui bahwa server yang digunakan pada portal praktikum jaringan komputer adalah server dari gunicorn.
 Setelah mengetahui jawaban-jawaban yang dicari,kirim jawab tersebut ke netcat yang telah disediakan dengan bash(nc/ncat)
@@ -77,5 +77,31 @@ kendala yang umum terjadi pada saat mengerjakan soal ini adalah kebingungan menc
 3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 - Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
 - Protokol layer transport apa yang digunakan?
+
+### jawaban
+buka file .pcapng dari soal terkait 
+
+![Ss Soal2](images/Screenshot%202023-09-22%20160659.png)
+
+lalu filter dengan mengetik "udp.port==3702" karena soal meminta berapa packet yang ditangkap oleh port 3702.
+
+![Ss Soal2](images/Screenshot%202023-09-22%20160714.png)
+
+lalu hitung berapa banyak paket dengan destinasi "239.255.255.250" pada tabel itu.Setelah dihitung ada 21 paket yang dikirim
+menuju destinasi ip address tersebut.lalu untuk protokol layer transport yang digunakan,seperti yang tertulis pada filter yang telah diketik yaitu "'udp'.port==3702",protokol layer transport yang digunakan yaitu menggunakan UDP atau User Diagram Protokol.
+Setelah mengetahui jawaban-jawaban yang dicari,kirim jawab tersebut ke netcat yang telah disediakan dengan bash(nc/ncat)
+
+```bash
+ncat sekian.sekian sekian.sekian
+```
+
+lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
+
+kendala yang umum terjadi pada saat mengerjakan soal ini adalah kebingungan mencari pada log mana yang memiliki informasi server yang sedang digunakan dari banyaknya log yang terekam pada file tersebut.
+
+
+## soal
+
+4. Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
 ### jawaban
