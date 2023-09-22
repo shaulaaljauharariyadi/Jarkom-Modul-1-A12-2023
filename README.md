@@ -43,21 +43,33 @@ ncat sekian.sekian sekian.sekian
 lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
 kendala yang umum terjadi ketika mengerjakan soal ini adalah kurang teliti ketika mencari sequence dan acknowledge number dari log STOR yang ditanyakan.jadi ketika soal menanyakan sequence number(raw) dan acknowledge number(raw) dari log tersebut tapi menjawab soal dengan sequence number dan acknowledge number yang biasa tanpa ada tanda raw pada informasi tersebut.
 
+
 2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 ### jawaban
+
 buka file .pcapng soal yang disediakan.
+
 ![Ss Soal2](images/Screenshot%202023-09-22%20102236.png)
+
 kemudian filter tabel dengan mengetik "http" sehingga tabel hanya menampilkan log dengan protocol http.
+
 ![Ss Soal2](images/Screenshot%202023-09-22%20102356.png)
+
 cari log dengan informasi "HTTP/sekian.sekian sekian" pada tabel tersebut untuk mencari nama server yang digunakan.lalu tekan header dari log tersebut untuk mencari untuk mengetahui server yang digunakan.
+
 ![Ss Soal2](images/Screenshot%202023-09-22%20102420.png)
+
 dari gambar diatas bisa diketahui bahwa server yang digunakan pada portal praktikum jaringan komputer adalah server dari gunicorn.
-Setelah mengetahui jawaban-jawaban yang dicari,kirim jawab tersebut ke netcat yang telah disediakan dengan bash(nc/ncat) 
+Setelah mengetahui jawaban-jawaban yang dicari,kirim jawab tersebut ke netcat yang telah disediakan dengan bash(nc/ncat)
+
 ```bash
 ncat sekian.sekian sekian.sekian
 ```
+
 lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
+
 kendala yang umum terjadi pada saat mengerjakan soal ini adalah kebingungan mencari pada log mana yang memiliki informasi server yang sedang digunakan dari banyaknya log yang terekam pada file tersebut.
+
 
 3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
