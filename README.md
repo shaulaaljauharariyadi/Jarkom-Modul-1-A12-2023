@@ -89,6 +89,7 @@ lalu filter dengan mengetik "udp.port==3702" karena soal meminta berapa packet y
 
 lalu hitung berapa banyak paket dengan destinasi "239.255.255.250" pada tabel itu.Setelah dihitung ada 21 paket yang dikirim
 menuju destinasi ip address tersebut.lalu untuk protokol layer transport yang digunakan,seperti yang tertulis pada filter yang telah diketik yaitu "'udp'.port==3702",protokol layer transport yang digunakan yaitu menggunakan UDP atau User Diagram Protokol.
+
 Setelah mengetahui jawaban-jawaban yang dicari,kirim jawab tersebut ke netcat yang telah disediakan dengan bash(nc/ncat)
 
 ```bash
