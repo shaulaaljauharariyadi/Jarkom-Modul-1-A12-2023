@@ -43,5 +43,7 @@ ncat sekian.sekian sekian.sekian
 lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut dapat disubmit pada platform pratikum yang digunakan.
 kendala yang umum terjadi ketika mengerjakan soal ini adalah kurang teliti ketika mencari sequence dan acknowledge number dari log STOR yang ditanyakan.jadi ketika soal menanyakan sequence number(raw) dan acknowledge number(raw) dari log tersebut tapi menjawab soal dengan sequence number dan acknowledge number yang biasa tanpa ada tanda raw pada informasi tersebut.
 
-2. 
+2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
+### jawaban
+
 
