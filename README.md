@@ -132,6 +132,47 @@ kendala yang umum terjadi pada saat mengerjakan soal ini adalah sedikit kebingun
 
 Untuk sisa soal kemungkinan telah dikerjakan oleh teman satu kelompok yang sampe sekarang belum melakukan kontak.
 
+# soal 5
+
+1. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
+2. Port berapakah pada server yang digunakan untuk service SMTP?
+3. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
+
+## Jawaban Soal 5 :
+
+1. membuka zip file yang didownload :
+   - Buka file .pcap yang didownload
+      ![Ss Soal4](images/Screenshot%202023-09-22%20224247.png)
+   - Masukkan Filter dibawah
+     ```bash
+        smtp
+      ```
+   - Klik kanan pada salah satu paket -> klik follow -> follow stream
+     ![Ss Soal4](images/Screenshot%202023-09-22%20224453.png)
+     
+   - Decode password base64, lalu masukkan ke password pada text file dalam zip folder yang didownload.
+     ![Ss Soal4](images/Screenshot%202023-09-22%20224147.png)
+
+2. a. menjawab sub-soal 1
+     - bersihkan filter dan lihat display pada bagian kanan bawah
+       ![Ss Soal4](images/Screenshot%202023-09-22%20224559.png)
+       
+   b. menjawab sub-soal 2
+     - filter capture packet dengan filter dibawah
+       ```bash
+        smtp
+        ```
+       klik kanan pada salah satu paket dan lihat port dari destination IP atau source IP
+       ![Ss Soal4](images/Screenshot%202023-09-22%20224646.png)
+
+    c. menjawab sub-soal 3
+      - check IP menggunakan command :
+        ```bash
+        nslookup [ip_address]
+        ```
+        maka hasilnya :
+        ![Ss Soal4](images/Screenshot%202023-09-22%20224745.png)
+
 ## soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88?
 
