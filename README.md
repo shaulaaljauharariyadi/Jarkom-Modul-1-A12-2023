@@ -131,3 +131,80 @@ lalu setelah submit jawaban jika benar akan mendapatkan flag dan flag tersebut d
 kendala yang umum terjadi pada saat mengerjakan soal ini adalah sedikit kebingungan mencari pada header bagian mana yang terdapat informasi terkait checksum tersebut sehingga harus melakukan sedikit konfigurasi settingan untuk dapat menemukan checksum yang dicari.
 
 Untuk sisa soal kemungkinan telah dikerjakan oleh teman satu kelompok yang sampe sekarang belum melakukan kontak.
+
+## soal 7
+Berapa jumlah packet yang menuju IP 184.87.193.88?
+
+## jawaban soal 7
+- buka file .pcapng soal terkait.
+
+![Ss Soal4](images/Screenshot%202023-09-22%20212848.png)
+
+- kemudian masukkan filter dibawah
+  
+```bash
+ip.dst==184.87.193.88
+```
+
+- berikut tampilan setelah paket difilter
+- 
+![Ss Soal4](images/Screenshot%202023-09-22%20213051.png)
+
+## soal 8
+
+Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
+
+## jawaban soal 8
+
+- buka file .pcapng soal terkait.
+
+![Ss Soal4](images/Screenshot%202023-09-22%20212848.png)
+
+- kemudian masukkan filter dibawah
+  
+```bash
+tcp.dstport == 80 || udp.dstport == 80
+```
+
+- berikut hasil filter :
+![Ss Soal4](images/Screenshot%202023-09-22%20214550.png)
+
+- Kendala dalam pengerjaan soal ini adalah terkadang wireshark bisa error dalam menampilkan data sesuai filter, sehingga terkadang paket filteran tidak tampak sama sekali meskipun syntax filter benar.
+  
+## soal 9
+
+Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+
+## jawaban soal 9
+
+- buka file .pcapng soal terkait.
+
+![Ss Soal4](images/Screenshot%202023-09-22%20212848.png)
+
+- kemudian masukkan filter dibawah
+  
+```bash
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+```
+
+- kendala dalam pengerjaan soal ini sama seperti soal 8 dimana wireshark bisa error dalam menampilkan filter dan perlu direstart.
+
+## soal 10
+
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet, format [username]:[password]!
+
+- buka file .pcapng soal terkait.
+
+![Ss Soal4](images/Screenshot%202023-09-22%20215326.png)
+
+- masukkan filter dibawah ini
+
+```bash
+telnet
+```
+
+- cari paket dan berikut hasil filter :
+
+![Ss Soal4](images/Screenshot%202023-09-22%20215429.png)
+
+- kendala dalam soal ini terletak pada pencarian username dan password yang tepat.
